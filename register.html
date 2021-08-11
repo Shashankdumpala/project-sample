@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+ <head>
+ <title> registration form </title>
+ </head>
+   <body>
+   	<h1 style="text-align:center;">REGISTRATION</h1>
+   	<h4 style="text-align:center;">ENTER YOUR TEAM DETAILS</h4>
+   	<form action="details.html">
+      <h2> TEAM DETIALS </h2>
+      <!.. text-align for centering the heading ..>
+      <table width="350px">
+        <tr>
+           <td>
+   		      <label for="name">Team Name:</label>
+           </td>
+           <td> 
+   		      <input id="name" type="text" name="username" pattern=".{5,10}" title="min of 5 characters and maximum of 10 characters" placeholder="Team Name"><br><br>
+           </td> 
+   		  </tr>
+
+        <tr>
+           <td>
+   		      <label for="name">Team Owner Name:</label>
+           </td>
+           <td> 
+   		      <input id="name" type="text" name="Owner name" pattern=".{5,10}" title="min of 5 characters and maximum of 10 characters" placeholder="Owner Name"><br><br>
+          </td>
+        </tr>
+
+        <tr>
+           <td>
+            <label for="email">Email Address:</label>
+           </td>
+           <td> 
+            <input id="email" type="email" name="mail" placeholder="Email id" required><br><br>
+          </td>
+        </tr>
+
+        <tr>
+           <td>
+            <label for="number">Mobile Number:</label>
+           </td>
+           <td> 
+            <input id="number" type="text" name="Mobile number" pattern=".{10,20}" title="min of 10 characters and maximum of 20 characters" placeholder="Mobile Number"><br><br>
+          </td>
+        </tr>
+
+        <tr>
+           <td>
+            <label for="name">City:</label>
+           </td>
+           <td> 
+            <input id="name" type="text" name="City" pattern=".{10,20}" title="min of 10 characters and maximum of 20 characters" placeholder="City"><br><br>
+          </td>
+        </tr>
+      </table>
+      <!.. used table for aliging the label ..>
+      <h3> Do You Have Played any Esports Tournaments </h3>
+       <label for="y">yes</label>
+       <input id="y" type="radio" name="experience" >
+       <label for="n">no</label>
+       <input id="n" type="radio" name="experience" > <br><br>
+
+      <h3> Which Device Do You prefer </h3>
+       <select name="Device">
+        <option value="AD">Andriod</option>
+        <option value="IOS">IOS</option>
+        <option value="WNDS">Windows</option>
+       </select>
+      <p> IF CAPTIAN IS THE TEAM OWNER </p>
+      <input type="checkbox" value="">
+      <p> I AGREE COLLECTING PROOF NUMBERS TO PARTICIPATE </p>
+      <input type="checkbox" value=""><br><br>
+      
+      <input type="submit" value="submit">
+      <!.. type="radio" selectbox type="checkbox" ..>
+
+    </form
+   </body>
+</html>
+
+  
+
