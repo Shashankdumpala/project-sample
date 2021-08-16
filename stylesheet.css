@@ -1,9 +1,37 @@
 h1{
-  color:#ff4500;	
+  text-align:left;
+  color:black;
+}
+span{
+     color: red;
 }
 body{
-	background:black;
+	background-image:url("test.jpg");
+     background-repeat:no-repeat;
+     background-size:cover;	
 }
-h1{
-	text-align:center;
+
+ul{
+   list-style:none ;
+   padding:0px;
+   margin:0px;
+   overflow:hidden;
+   background-color:black;
+}
+li a{
+     float:left;
+     display:block;
+     color:white;
+     padding: 10px 15px;
+     text-align:center;
+     text-decoratioon:none;
+     border-right:1px soid black;
+     min-width:60px;
+}
+li a:hover{
+     background-color:#222222;
+}
+.text p:nth-child(1){
+     font-family:calibri;
+     font-weight:bold;
 }
