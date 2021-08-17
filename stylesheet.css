@@ -1,37 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
 h1{
-  text-align:left;
-  color:black;
-}
-span{
-     color: red;
-}
-body{
-	background-image:url("test.jpg");
-     background-repeat:no-repeat;
-     background-size:cover;	
-}
-
-ul{
-   list-style:none ;
-   padding:0px;
-   margin:0px;
-   overflow:hidden;
-   background-color:black;
-}
-li a{
-     float:left;
-     display:block;
-     color:white;
-     padding: 10px 15px;
-     text-align:center;
-     text-decoratioon:none;
-     border-right:1px soid black;
-     min-width:60px;
-}
-li a:hover{
-     background-color:#222222;
-}
-.text p:nth-child(1){
-     font-family:calibri;
+     text-align:left;
+     color:rgba(10, 10, 10, 0.322);
+     font-size:60px ;
+   }
+   span{
+        color: rgb(230, 15, 15);
+   }
+   body{
+        background-image:url("test.jpg");
+        background-repeat:no-repeat;
+        background-size:cover;	
+   }
+   
+   ul{
+      list-style:none ;
+      padding:0px;
+      margin:0px;
+      overflow:hidden;
+      background-color:black;
+   }
+   li a{
+        float:left;
+        display:inline-block;
+        color:white;
+        padding: 10px 15px;
+        text-align:center;
+        text-decoration:none;
+        border-right:1px solid black;
+        min-width:60px;
+   }
+   li a:hover{
+        background-color:#222222;
+   }
+   .text{
+        position: absolute;
+        top:30%;
+        left:30%;
+        transform:translate(-30%,-30%);
+        font-family: sans-serif;
+   }
+   .text p:nth-child(1){
+        font-family:calibri;
+        font-weight:bold;
+        font-size:40px;
+        text-align: justify;
+   }
+   .text p:nth-child(2){
+     font-family:Roboto Mono;
      font-weight:bold;
+     font-size:67px;
+}
+.text p:nth-child(3){
+      font-family:calibri;
+      font-weight:bold;
+      font-size:40px;
 }
