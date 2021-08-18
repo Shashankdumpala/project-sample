@@ -13,7 +13,7 @@ h1{
         color: rgb(230, 15, 15);
    }
    body{
-        background-image:url("test.jpg");
+        background-image:url("https://images.unsplash.com/photo-1512950050685-b1d4ae63d2df?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBvcnRmb2xpbyUyMGJhY2tncm91bmR8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80");
         background-repeat:no-repeat;
         background-size:cover;	
    }
