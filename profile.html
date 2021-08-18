@@ -1,34 +1,55 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="stylesheet.css">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Personal Profile</title>
+    <link rel="stylesheet" href="sheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile</title>
 </head>
-       <body>
-            <h1>Portfo<span>lio.</span></h1>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact us</a></li>
-           </ul>
-           <!-- TEXT ----->
-           <div class="text">
-           <p>Hello,</p>
-           <p>I'M SHASHANK REDDY</p>
-           <P>I am a Web Designer</P>
-           <button class="Hire-btn">Hire me</button>
-           </div>  
+<body>
+    <div class="nav">
+        <h1>Portfo<span>lio</span></h1>
+        <ul id="special">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#contact">Contact me</a></li>
+        </ul>      
+    </div>
+    <div class="back" id="home">
+        <div class="text">
+            <p>Hello,my name is</p>
+            <p>SHASHANK REDDY</p>
+            <P>ANd I'm a Web Designer</P>
+            <button class="Hire-btn">Hire me</button>
+        </div>
+    </div>
+    <div class="about" id="about">
+        <div class="left">
+             <img src="data:image/jpeg;base64,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">                
+        </div>
+        <div class="right">
+            <h2 class="title">About me</h2>
+            <p>I'm Shashank Reddy and i'm a Web Designer </p>
+            <p>I Was Born in karimnagr,I live in Hyderabad.I'm a graduate at DRK college of Engineering(2017-2021).My first intreset was Gaming from childhood rather than stdies.I'm an average student at school used to skip classes to play outdoor games most of the times i used to play cricket at schooling age i used to have dream to become a cricketr to play for my county.After schooling i studied intermediate and scored a good percentage.And then took ECE in Engineering and graudated with 65%.Then learnt web desining</p>
+        </div>
+    </div>
+    
+    <div class="service" id="services">
+        <div class="one">
+            <h2>What Services I Provide</h2>
+            <p>Master at web desining. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, dolorem quam sint non excepturi veniam illo fugit itaque illum expedita ipsum quisquam, sequi eligendi velit odit nihil! Nemo, saepe error. Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ullam expedita laboriosam odio beatae harum in veniam quibusdam? Ullam consequatur adipisci saepe magni totam eius, ipsa ipsam impedit hic deserunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam vitae totam sed delectus aliquam fuga hic omnis quae, commodi, ad non possimus placeat distinctio dolorem ea ut officia suscipit minima. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore dolorum, aliquam ut voluptatum vel veniam sit nam reprehenderit, eius quaerat magnam, optio natus tempora mollitia! Fugit perferendis tenetur impedit maiores? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam officia voluptatibus accusamus labore quam pariatur quis repellendus? A magnam dolor sit nam, culpa maiores quam, accusantium quidem obcaecati aperiam facilis.</p>        
+        </div>
+    </div>
 
-           
-           
-           
-
-
-            
-
-
-       </body>
-</html>     
+    <div class="contact" id="contact">
+        <h2 class="one">Contact Me</h2>
+        <div class="icon">
+           <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+           <a href="https://twitter.com/" class="fa fa-twitter"></a>
+           <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+        </div>
+    </div>  
+</body>
+</html>
