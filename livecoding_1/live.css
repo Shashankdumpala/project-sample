@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.head{
+    display:flex;
+    justify-content: space-between;
+    background-color: brown;
+    align-items: center;
+   
+}
+.topleft li{
+    display:inline-block;
+    list-style:none;
+    padding:10px 15px ;
+}
+.topright li{
+   list-style: none;
+   display: inline-block;
+   padding-right:40px;
+}
+.topright li a{
+    color: cornsilk;
+}
+.logo{
+    display: flex;
+}
+.collogo{
+    width: 300px;
+}
+.collogo img{
+    display: block;
+    padding-left:150%;
+}
+.code{
+    padding-left:50% ;
+    padding-top: 5%;
+}
+.shead{
+   background-color: darkred;
+   padding:10px 15px;
+   text-transform: uppercase;
+   text-align: center;
+  
+}
+.menu li{
+    display: inline-block;
+    padding: 15px;
+}
+.menu li a{
+    color: gainsboro;
+}
+.colimg img{
+    width: 100%;
+}
+.stats{
+    width: 100%;
+    height: 75vh;
+    background-color: firebrick;
+
+}
+.place{
+    font-size: 30px;
+    text-align: center;
+}
+hr{
+    width: 30%;
+    margin-left: 35%;
+}
+.stats p{
+    text-align: center;
+}
+.toprec{
+    text-align: center;
+}
+.rec img{
+    width: 50%;
+}
