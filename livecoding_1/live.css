@@ -76,5 +76,52 @@ hr{
     text-align: center;
 }
 .rec img{
-    width: 50%;
+    width: 100%;
+    
+}
+.dep{
+    width: 100%;
+    background-color:dodgerblue;
+}
+.det h5{
+    font-size: 30px;
+    text-align: center;
+}
+.det li{
+    display: inline-block;
+}
+.colldet{
+    display:flex;
+    background-color: maroon;
+}
+.college{
+    margin-top: 3%;
+    margin-right: 5%;
+    margin-left: 3%;
+}
+.college h4{
+    text-transform: uppercase;
+    text-align: center;
+    color: mintcream;
+}
+.college p{
+    color: oldlace;
+}
+.address{
+    margin-top: 3%;
+    margin-right: 5%;
+    margin-left: 3%;
+}
+.address h6{
+    text-align: center;
+    text-transform: uppercase;
+    color: mintcream;
+}
+.address p{
+    color: oldlace;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: blanchedalmond;
 }
