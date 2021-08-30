@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    text-decoration:none;
+}
+/* Navbar */
+.navbar{
+    background: rgb(15, 3, 3);
+}
+.navbar-brand {
+    font-size: 30px;
+}
+.navbar-brand span{
+    color: tomato;
+}
+img{
+    width: 100%;
+}
