@@ -3,58 +3,147 @@
 
 <head>
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
-        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-    <link rel="stylesheet" href="stylesheet1.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PROfile</title>
     <link rel="icon"
         href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtpifVQVd-5cglJ6GahRdGyMVW_ZbY_CJD5w&usqp=CAU">
+    <link rel="stylesheet" href="stylesheet1.css">
 </head>
 
 <body>
-    <!-- Navigation bar starts -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">Portfo<span>lio</span></a>
-            </div>
+    <!-- navbar section -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Portfo<span>lio</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#contact">Contact me</a></li>
-                </ul>
-            </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact Me</a>
+                </li>
+        </div>
     </nav>
-    <!-- End of header -->
-    <!-- Home page starts with a Background image -->
-    <div>
-        <img src="https://images.unsplash.com/photo-1518655048521-f130df041f66?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80"
-            class="img-responsive" alt="Responsive image">
+    <!-- navbar  section end -->
+    <!-- home section -->
+    <div class="home" id="home">
+        <div class="container">
+            <div class="text text-center">
+                <p>Hello,my name is</p>
+                <h3>SHASHANK REDDY</h3>
+                <P>ANd I'm a Web Designer</P>
+                <button class="btn btn-dark">Hire me</button>
+            </div>
+        </div>
     </div>
+    <!-- about section -->
+    <div class="about" id="about">
+        <div class="container">
+            <div class="jumbotron">
+                <div class="media">
+                    <img src="https://images.unsplash.com/photo-1453396450673-3fe83d2db2c4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjE1fHxwcm9maWxlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        class="align-self-center mr-3">
 
-    <script src="https://code.jquery.com/jquery-2.2.4.js"
-        integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+                    <div class="media-body">
 
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
-        integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
-        crossorigin="anonymous"></script>
+                        <h2 class="mt-0">About me</h2>
+                        <p>I'm Shashank Reddy and i'm a Web Designer </p>
+                        <p>BLAH BLAH CONTENT. Life is too short to waste or regret. So one should always have a
+                            positive
+                            attitude towards life
+                            and try to live a meaningful life. Be kind and happy to enjoy life at the fullest. Hope
+                            it
+                            is
+                            easy to understand the meaning, and essay on life now.
+                            Life is too short to waste or regret. So one should always have a positive attitude
+                            towards
+                            life
+                            and try to live a meaningful life. Be kind and happy to enjoy life at the fullest. Hope
+                            it
+                            is
+                            easy to understand the meaning, and essay on life now.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- service section -->
+    <div class="service" id="services">
+        <div class="container">
+            <div class="jumbotron">
+                <div class="media-heading text-center">
+                    <h2>What Services I Provide</h2>
+                    <div class="media-body">
+                        <p>Master at web desining. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt,
+                            dolorem
+                            quam
+                            sint
+                            non excepturi veniam illo fugit itaque illum expedita ipsum quisquam, sequi eligendi velit
+                            odit
+                            nihil!
+                            Nemo, saepe error. Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ullam
+                            expedita
+                            laboriosam odio beatae harum in veniam quibusdam? Ullam consequatur adipisci saepe magni
+                            totam
+                            eius,
+                            ipsa ipsam impedit hic deserunt? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Ipsam
+                            vitae
+                            totam sed delectus aliquam fuga hic omnis quae, commodi, ad non possimus placeat distinctio
+                            dolorem
+                            ea
+                            ut officia suscipit minima. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Inventore
+                            dolorum,
+                            aliquam ut voluptatum vel veniam sit nam reprehenderit, eius quaerat magnam, optio natus
+                            tempora
+                            mollitia! Fugit perferendis tenetur impedit maiores? Lorem ipsum dolor sit amet consectetur,
+                            adipisicing
+                            elit. Totam officia voluptatibus accusamus labore quam pariatur quis repellendus? A magnam
+                            dolor
+                            sit
+                            nam, culpa maiores quam, accusantium quidem obcaecati aperiam facilis.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- contact section -->
+    <div class="contact" id="contact">
+        <h2 class="one">Contact me</h2>
+        <div class="icon">
+            <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+            <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+    <!-- footer section -->
+    <footer>
+        <span>Created by <a href="#">Shashank reddy</a> | <span>&copy;</span> 2021 All rights reserved</span>
+    </footer>
+
+
 
 
 
