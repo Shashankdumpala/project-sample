@@ -1,0 +1,33 @@
+html,body{
+    background-image: url('https://images.unsplash.com/photo-1559137651-1e81a7f924b0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1789&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 107%;
+}
+.card{
+    height:670px;
+    margin-top:auto;
+    margin-bottom: auto;
+    width: 400px;
+    background:transparent;
+}
+.card-header{
+    color: white;
+    font-size:30px;
+    font-family:'Roboto Mono', monospace;
+}
+.container{
+    height: 100%;
+    align-content: center;
+}
+.card-body .form-group{
+    color: #ffff;
+}
+.btn-block{
+    background-color:transparent;
+    color: #fff;
+}
+.btn-block:hover{
+    background-color:rgb(250, 246, 246);
+    color: rgb(19, 18, 18);
+}
