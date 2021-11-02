@@ -1,0 +1,10 @@
+body {
+  width: 100%;
+  height: 100vh;
+}
+.down1 {
+  display: flex;
+}
+.ckbx {
+  padding: 10px;
+}
