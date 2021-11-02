@@ -1,0 +1,12 @@
+.body {
+  background-color: rgb(226, 178, 21);
+  min-height: 100vh;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.view {
+  display: flex;
+}
