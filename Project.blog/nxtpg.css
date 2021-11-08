@@ -1,5 +1,4 @@
 body {
-  width: 100%;
   height: 100vh;
 }
 .down1 {
@@ -7,4 +6,9 @@ body {
 }
 .ckbx {
   padding: 10px;
+}
+footer {
+  background-color: black;
+  color: aquamarine;
+  text-align: center;
 }
