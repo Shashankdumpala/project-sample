@@ -67,3 +67,8 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+footer {
+  background-color: black;
+  color: aquamarine;
+  text-align: center;
+}
