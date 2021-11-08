@@ -1,6 +1,6 @@
 .body {
-  background-color: rgb(226, 178, 21);
-  min-height: 100vh;
+  background-color: rgb(84, 203, 250);
+  height: 100vh;
 }
 .button {
   display: flex;
@@ -9,4 +9,10 @@
 }
 .view {
   display: flex;
+  padding: 10px;
+}
+footer {
+  background-color: black;
+  color: aquamarine;
+  text-align: center;
 }
