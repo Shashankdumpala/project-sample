@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="pomo.css">
+</head>
+<body>
+ <div class="body">
+    <div class="timer">
+        <legend style="font-size:49px;">pomodoro</legend>
+        <div class="promo">
+        <p id="work">
+            <span id="w_minutes">25</span><span id="semicolon">:</span><span id="w_seconds">00</span>
+            work
+        </p>
+        <p id="cycles">
+            <span id="cycle">0</span>
+            cycles
+        </p>
+        <p id="break">
+            <span id="b_minutes">5</span><span id="semicolon">:</span><span id="b_seconds">00</span>
+            break
+        </p>
+        <p id="longbreak">
+            <span id="lb_minutes">15<span id="semicolon">:</span><span id="lb_seconds">00</span>
+            long break
+        </p>
+        </div>
+       <div class="stsp">
+        <button id="start" class="btn btn-light">start</button>
+        <button id="stop" class="btn btn-danger">stop</button>
+        <button id="reset" class="btn btn-dark">reset</button>
+        <button id="next" class="btn btn-warning">skip</button>
+       </div>
+    </div>
+    <div>
+        <div class="info">
+            <p>
+                This is a pomodoro technique to keep focus on things you do. 
+            </p>
+        </div>
+    </div>
+ </div>
+<script src="pomo.js"></script>
+</body>
+</html>
